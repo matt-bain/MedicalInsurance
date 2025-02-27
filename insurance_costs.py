@@ -40,3 +40,17 @@ average_non_smoker_cost = non_smoker_total_cost / non_smoker_total_count
 
 print(f"The average cost of insurance for smokers is: ${average_smoker_cost:.2f} and for non_smokers is: ${average_non_smoker_cost:.2f}")
 print(f"{(smoker_total_count/len(insurance_records)*100):.2f}% of records are smokers and {(non_smoker_total_count/len(insurance_records)*100):.2f}% are non-smokers")
+
+#3. Are there more male than female smokers? This would drive up the average
+male_smoker_count = 0
+female_smoker_count = 0
+
+for record in insurance_records:
+    if record["smoker"] == "yes":
+        if record["sex"] == "male":
+            male_smoker_count += 1
+        elif record["sex"] == "female":
+            female_smoker_count += 1
+
+print(f"There are {male_smoker_count} male smokers which is {(male_smoker_count/male_total_count*100):.2f}% of all males in the set and {(male_smoker_count/len(insurance_records)*100):.2f}% of total sample.")
+print(f"There are {female_smoker_count} female smokers which is {(female_smoker_count/female_total_count*100):.2f}% of all females in the set and {(female_smoker_count/len(insurance_records)*100):.2f}% of total sample.")
