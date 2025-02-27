@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e8efc4f-de46-409c-8645-742d073a6963" name="Changes" comment="Initial commit with imported dataset">
-      <change afterPath="$PROJECT_DIR$/insurance_costs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e8efc4f-de46-409c-8645-742d073a6963" name="Changes" comment="Pull insurance data into a python list">
+      <change beforePath="$PROJECT_DIR$/insurance_costs.py" beforeDir="false" afterPath="$PROJECT_DIR$/insurance_costs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740658214493</updated>
-      <workItem from="1740658215507" duration="1497000" />
+      <workItem from="1740658215507" duration="2215000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with imported dataset">
       <option name="closed" value="true" />
@@ -78,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740658505172</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pull insurance data into a python list">
+      <option name="closed" value="true" />
+      <created>1740659829670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740659829670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,9 +93,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit with imported dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with imported dataset" />
+    <MESSAGE value="Pull insurance data into a python list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pull insurance data into a python list" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MedicalInsurance$insurance_costs.coverage" NAME="insurance_costs Coverage Results" MODIFIED="1740659678202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MedicalInsurance$insurance_costs.coverage" NAME="insurance_costs Coverage Results" MODIFIED="1740660406054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
